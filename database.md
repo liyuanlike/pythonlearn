@@ -10,7 +10,7 @@
 冲突等价(conflict equivalent):一个调度经过一系列非冲突指令转换成另一个调度，则他们两冲突等价
 级联回滚(cascading rollback)
 无级联调度(cascadeless schedule)
-
+脏写(dirty write):如果一个数据项已经被另外一个尚未提交或中止的事务写入，则不允许对该数据项执行写操作
 
 
 """"End"""""""
